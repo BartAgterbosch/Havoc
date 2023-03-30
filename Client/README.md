@@ -8,7 +8,7 @@ Havoc Gui Client source code.
 		1. `Python-3.10`
 		2. `python3-dev`
 		3. `libspdlog-dev`
-		4. `qt5`-packages
+		4. `qt5` (specifically: `qtbase5-dev` `qtchooser` `qt5-qmake` `qtbase5-dev-tools` `libqt5websockets5-dev`)
 		5. `libboost-all-dev`
 	- **If you are running Ubuntu 20.04/22.04** as your base OS, you must first enable Python3.10 in your APT repos before you will be able to run the client successfully:
 		1. `sudo apt install build-essential`
